@@ -27,7 +27,7 @@ body {
     aspect-ratio: 9/16; /* Vertical format as per reference */
     position: relative;
     background-image: url('assets/Back-ground-Card.png');
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -39,15 +39,6 @@ body {
 .business-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
-}
-
-.background-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(45, 75, 105, 0.9) 0%, rgba(30, 50, 70, 0.95) 100%);
 }
 
 .card-content {
@@ -64,7 +55,6 @@ body {
 .logo-section {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 20px;
 }
 
 .logo {
